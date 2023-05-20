@@ -1,0 +1,1 @@
+migrate -database "postgres://postgres:postgres@localhost:5432/go_fiber_boiler_plate?sslmode=disable&search_path=public" -path database/migrations up
